@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    android:id="@+id/main"
+    tools:context="com.example.sharif.appointment.Slip">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Appoinment Slip"
+          android:layout_marginTop="15dp"
+          android:id="@+id/as"
+          android:textColor="#3cd23c"
+          android:textSize="30dp"
+          android:layout_centerHorizontal="true"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Patient name :"
+          android:layout_below="@id/as"
+          android:textColor="#3cd23c"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="30dp"
+          android:id="@+id/pn"
+          android:textSize="20dp"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Ijaz sharif"
+          android:id="@+id/NAME"
+          android:layout_marginTop="30dp"
+          android:layout_below="@id/as"
+          android:textSize="20dp"
+          android:textColor="#5f9be9"
+          android:layout_marginRight="50dp"
+          android:layout_alignParentRight="true"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Doctor name :"
+          android:id="@+id/dn"
+          android:textColor="#3cd23c"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="30dp"
+          android:layout_below="@id/pn"
+          android:textSize="20dp"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Ijaz sharif"
+          android:id="@+id/DOCTOR"
+          android:layout_marginTop="30dp"
+          android:layout_below="@id/NAME"
+          android:textSize="20dp"
+          android:textColor="#5f9be9"
+          android:layout_marginRight="50dp"
+          android:layout_alignParentRight="true"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Appoinment day next :"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="30dp"
+          android:id="@+id/ad"
+          android:textColor="#f20dc8"
+          android:layout_below="@id/dn"
+          android:textSize="20dp"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Ijaz sharif"
+          android:id="@+id/DAY"
+          android:layout_marginTop="30dp"
+          android:layout_below="@id/DOCTOR"
+          android:textSize="20dp"
+          android:textColor="#f20dc8"
+          android:layout_marginRight="50dp"
+          android:layout_alignParentRight="true"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Patient living place :"
+          android:layout_below="@id/ad"
+          android:textColor="#f20dc8"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="30dp"
+          android:textSize="20dp"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Ijaz sharif"
+          android:id="@+id/PLACE"
+          android:layout_marginTop="30dp"
+          android:layout_below="@id/DAY"
+          android:textSize="20dp"
+          android:textColor="#f20dc8"
+          android:layout_marginRight="50dp"
+          android:layout_alignParentRight="true"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Patient CNIC :"
+          android:textColor="#f20dc8"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="30dp"
+          android:textSize="20dp"
+          android:id="@+id/c"
+          android:layout_below="@id/PLACE"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:text="3660209153565"
+          android:textColor="#f20dc8"
+          android:layout_marginTop="10dp"
+          android:textSize="20dp"
+          android:id="@+id/CNIC1"
+          android:layout_below="@id/c"/>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="take picture"
+          android:padding="10dp"
+          android:id="@+id/picture"
+          android:background="@drawable/style"
+          android:layout_centerHorizontal="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginBottom="20dp"/>
+    </RelativeLayout>
